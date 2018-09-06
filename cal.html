@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>Calculator</title>
+
+<style>
+td,tr{
+background-color:red;
+
+}
+
+input{
+width:100%;
+border:solid;
+}
+
+
+</style>
+<body>
+<form id="cal">
+
+<table align="center">
+<br>
+
+
+<tr>
+
+<td colspan="4"><input type="text" id="dis"/></td>
+</tr>
+
+<tr>
+<td>
+<input type="button" id="n1"  value="1" onclick=cal.dis.value+='1'></td>
+
+<td>
+<input type="button" id="n2" value="2" onclick=cal.dis.value+='2'></td>
+
+<td>
+<input type="button"  id="n3" value="3" onclick=cal.dis.value+='3'></td>
+
+
+<td>
+<input type="button" id="n4" value="+" onclick=cal.dis.value+='+'></td>
+
+</tr>
+
+<tr>
+<td>
+<input type="button"  id="n5" value="4" onclick=cal.dis.value+='4'></td>
+
+
+<td>
+<input type="button" id="n6"  value="5" onclick=cal.dis.value+='5'></td>
+<td>
+<input type="button"  id="n7" value="6" onclick=cal.dis.value+='6'></td>
+
+<td>
+<input type="button"  id="n8"  value="-" onclick=cal.dis.value+='-'></td>
+
+
+
+</tr>
+
+<tr>
+<td>
+<input type="button" id="n9" value="7" onclick=cal.dis.value+='7'></td>
+
+<td>
+<input type="button" id="n10" value="8" onclick=cal.dis.value+='8'></td>
+
+<td>
+<input type="button" id="n11" value="9" onclick=cal.dis.value+='9'></td>
+
+<td>
+<input type="button" id="n12" value="*" onclick=cal.dis.value+='*'></td>
+
+</tr>
+
+<tr>
+<td>
+<input type="reset" id="n13"  value="c"></td>
+<td>
+<input type="button" id="n14" value="0" onclick=cal.dis.value+='0'></td>
+
+
+</td>
+
+<td>
+<input type="button" id="n15" value="=" onclick=cal.dis.value=eval(cal.dis.value)></td>
+
+<td>
+<input type="button" id="n16" value="/" onclick=cal.n16.value+='/'></td>
+
+</tr>
+
+</table>
+</body>
+</form>
+</head>
+</html>
+
+
+
